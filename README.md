@@ -17,7 +17,7 @@
 
 ### 配置自启动
 1. 修改`supervisord.conf`，将`directory`修改为脚本根目录
-2. echo "supervisord -c home/wwwroot/tumblr_clawer/supervisord.conf" >> /etc/rc.d/rc.local
+2. echo "supervisord -c home/wwwroot/tumblr_crawler/supervisord.conf" >> /etc/rc.d/rc.local
 3. chmod +x /etc/rc.d/rc.local
 
 ### 配置nginx
