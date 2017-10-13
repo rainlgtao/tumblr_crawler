@@ -41,7 +41,7 @@
                     {%for video in videos%}
                     <div class="col-sm-6 col-md-3">
                           <div class="thumbnail">
-                             <img src="{{video.poster}}" height="80" width="%100" class="img-responsive">
+                             <img src="{{video.poster}}" height="40" width="%100" class="img-responsive">
                           </div>
                           <div class="caption">
                              <button id="play" class="btn btn-success" style="display: line;">播放<input type="hidden" class="videoUrl" value="{{video.urls}}"></button>
@@ -56,7 +56,7 @@
                     {%for picture in pictures%}
                     <div class="col-sm-6 col-md-3">
                           <div class="thumbnail">
-                             <img src="{{picture.urls}}" height="80" width="%100" class="img-responsive">
+                             <img src="{{picture.urls}}" height="40" width="%100" class="img-responsive">
                           </div>
                           <div class="caption">
                             <p><a class="btn" href="{{picture.urls}}" download>下载</a></p>
